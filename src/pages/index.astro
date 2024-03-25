@@ -17,9 +17,6 @@ import "../styles/global.css";
     <title>{SITE_TITLE}</title>
   </head>
   <body class="dark:bg-black">
-    <button id="dark-mode-toggle" class="mb-2 mt-2">
-      <Icon name="tabler:sun" class="w-6 h-6 dark:text-white" />
-    </button>
 
     <div class="text-center mb-3">
       <h1 class="text-2xl font-bold mb-1 dark:text-white">Van Lam Nguyen</h1>
@@ -169,33 +166,5 @@ import "../styles/global.css";
         />
       </div>
     </div>
-
-    <script is:inline>
-      if (
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
-
-      window.onload = function () {
-        const element = document.getElementById("dark-mode-toggle");
-
-        if (element) {
-          element.addEventListener("click", () => {
-            document.documentElement.classList.toggle("dark");
-
-            localStorage.theme = document.documentElement.classList.contains(
-              "dark"
-            )
-              ? "dark"
-              : "light";
-          });
-        }
-      };
-    </script>
   </body>
 </html>
