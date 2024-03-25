@@ -3,8 +3,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-    site: "https://cv.nguyenvanlam.online/",
-    base: 'master',
+    site: "https://vanlam2001.github.io/",
     integrations: [
         tailwind(),
     ],
