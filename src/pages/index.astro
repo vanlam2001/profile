@@ -28,7 +28,7 @@ import "../styles/global.css";
         <a
           href="tel:+49 1234 567890"
           class="hover:text-red-500 dark:text-white dark:hover:text-red-500"
-          >+84 788758761(VN)
+          >+84 xxx761(VN)
         </a>
         |
         <a
@@ -46,52 +46,111 @@ import "../styles/global.css";
       />
     </div>
 
+    <div id="skills" class="mb-6">
+      <SectionTitle title="Technical skills" />
+
+    <b>Programming Languages</b>   
+    <p>+ Golang, Python</p>
+
+    <b>Frameworks/	Platforms:</b>
+    <p>+ Echo, FastAPI</p>
+    
+    <b>Database	Management Systems</b>
+    <p>+ PostgreSQL</p>
+
+    <b>Version	Control</b>
+    <p>+ Git</p>
+
+    <b>Containerization</b>
+    <p>+ Docker</p>
+    
+    <b>Others</b>
+    <p>+ Capable of exploiting web and app security vulnerabilities
+    </p>
+    
+
+    </div>
+
     <div id="education" class="mb-6">
       <SectionTitle title="Education" />
 
       <RowEntry
-        description="Computer Network Administration"
+        description="Study information systems"
         name="09/2020 - 04/2022"
         title="Nam Sai Gon Polytechnic College."
         subTitle="I graduated with honors and actively reported errors in the school's operational products"
       />
     </div>
+    
 
     <div id="work" class="mb-6">
       <SectionTitle title="Working experience" />
 
       <RowEntry
-        description="Started working as a fulltime frontend developer. After some time I got more and more into backend development as well by developing APIs with Node.js."
+        description="Started working as a full-time back-end developer. After a while, I became more and more interested in backend development by developing APIs with Golang"
         name="10/2023 - today"
-        title="Back End Developer"
-        subTitle="Munich"
+        title="Linkpower"
+        subTitle="(Back-End Developer)"
       />
+      
+      <div class="mt-5">
+        <b>Project Description</b>
+        <p>Link Power E Learning is a project born to serve as an online teaching platform, the content streamed online on the web is short training content, this is an online HR learning website developed using Go and Web API</p>
+      </div>
+
+      <div class="mt-5">
+        <b>Team size: 2</b>
+      </div>
+
+      <div class="mt-5">
+       <b>Responsibilities</b>
+       <p>+ Deploy solutions (backend) based on requests from stakeholders, 
+        implement additional functionality for the e-learning application, 
+        collaborate with team leaders to identify and improve team work processes and ensure product quality to avoid easily exploitable security holes
+        </p>
+        <p>+ Coding, Fix bug, Unit test, Pentest</p>
+       <b>Technologies</b>
+       <p>Golang, PostgreSQL, Docker, Git</p>
+      </div>
+      
+      
     </div>
 
-    <div id="programming-experience" class="mb-6">
-      <SectionTitle title="Programming experience" />
+    <div id="honors_awards" class="mb-6">
+      <SectionTitle title="HONORS & AWARDS" />
 
       <RowEntry
-        description="Developed an app for ordering food with Angular."
-        name="07/2019 - 12/2019"
-        title="Food ordering app"
+        description="Vulnerability discovered on WordPress platform, 1 school website (CVE-2017-5487) Bonus: 500,000 VND (Nam Sai Gon Polytechnic College)"
+        name="03/2022"
+        title="Bug Bounty (CVE-2017-5487)"
       />
-    </div>
+      <div class="mt-5">
+       <b>Details of the vulnerability</b>
+       <a href="https://vanlam2001.github.io/blog/user-disclosure-wordpress/" target="_blank">https://vanlam.online/user-disclosure-wordpress</a>
+      </div>
 
-    <div id="skills" class="mb-6">
-      <SectionTitle title="Skills and interests" />
-
-      <RowEntry description="German, English, French" name="Languages" />
-
-      <RowEntry
-        description="Technologies you're interested in..."
-        name="Technologies"
+      <div class="mt-5">
+        <b>Discovering Product Flaws</b>
+        <a href="https://namsaigon.edu.vn" target="_blank">https://namsaigon.edu.vn</a>
+       </div>
+    
+      <div class="mt-5">
+        <RowEntry 
+        description="Vulnerability discovered on Telerik platform (.NET), 1 school website (CVE-2017-9248) Bonus: 1.500,000 VND (Nam Sai Gon Polytechnic College)"
+        name="09/2020"
+        title="Bug Bounty (CVE-2017-9248)"
       />
 
-      <RowEntry
-        description="Further interests beside tech stuff..."
-        name="Interests"
-      />
+      <div class="mt-5">
+        <b>Details of the vulnerability</b>
+        <a href="https://vanlam2001.github.io/blog/cve-2017-9248-NSG/" target="_blank">https://vanlam.online/cve-2017-9248-NSG</a>
+       </div>
+ 
+       <div class="mt-5">
+         <b>Discovering Product Flaws</b>
+         <a href="https://namsaigon.phanmemdaotao.com/" target="_blank">https://namsaigon.phanmemdaotao.com/</a>
+        </div>
+      </div>
     </div>
 
     <div id="social" class="justify-center flex flex-row mb-2">
@@ -99,42 +158,14 @@ import "../styles/global.css";
         <SocialIcon
           icon="fa-brands:github"
           label="github"
-          url="https://www.github.com/"
+          url="https://www.github.com/vanlam2001"
         />
       </div>
       <div class="mr-4">
         <SocialIcon
           icon="fa-brands:linkedin"
           label="linkedin"
-          url="https://www.linkedin.com/"
-        />
-      </div>
-      <div class="mr-4">
-        <SocialIcon
-          icon="fa-brands:medium"
-          label="medium"
-          url="https://www.medium.com/"
-        />
-      </div>
-      <div class="mr-4">
-        <SocialIcon
-          icon="fa-brands:dev"
-          label="dev"
-          url="https://www.dev.to/"
-        />
-      </div>
-      <div class="mr-4">
-        <SocialIcon
-          icon="fa-brands:stack-overflow"
-          label="stack-overflow"
-          url="#"
-        />
-      </div>
-      <div>
-        <SocialIcon
-          icon="ant-design:global-outlined"
-          label="website"
-          url="https://www.stackoverflow.com/"
+          url="https://www.linkedin.com/vanlam1412"
         />
       </div>
     </div>
